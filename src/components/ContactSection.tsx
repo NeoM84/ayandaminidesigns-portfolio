@@ -7,7 +7,7 @@ const emailAddress = 'ayandamindesigns@gmail.com';
 
 const socialLinks = [
   { name: 'Instagram', handle: '@ayandamini.studio', url: 'https://instagram.com' },
-  { name: 'LinkedIn', handle: 'ayanda-mini', url: 'https://linkedin.com' },
+  { name: 'LinkedIn', handle: 'ayanda-mini', url: 'https://www.linkedin.com/in/ayandamini' },
 ];
 
 export function ContactSection() {
