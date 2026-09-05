@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Caprasimo", Georgia, serif;
+  --font-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+  --color-brand-bg: #ffffff;
+  --color-brand-primary: #111111;
+  --color-brand-secondary: #6F6F6F;
+  --color-brand-border: #ff751f;
+  --color-brand-accent: #ff5100;
+}
+
+:root {
+  --bg: #ffffff;
+  --ink: #111111;
+  --secondary: #6F6F6F;
+  --border: #ff751f;
+  --accent: #ff5100;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: var(--bg);
+    color: var(--ink);
+  }
+
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+    color: var(--ink);
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.03em;
+  }
+}
+
+/* Editorial Aesthetic core tokens */
+.serif {
+  font-family: 'Georgia', serif;
+  letter-spacing: -0.04em;
+}
+
+.caps {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.line-y {
+  width: 1px;
+  background-color: var(--border);
+  height: 100%;
+}
+
+.line-x {
+  height: 1px;
+  background-color: var(--border);
+  width: 100%;
+}
+
+.project-img {
+  aspect-ratio: 4/5;
+  background: linear-gradient(135deg, #f5f5f5 0%, #fff7ed 100%);
+  border: 1px solid var(--border);
+}
+
+.accent-pill {
+  background-color: var(--accent);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 11px;
+  font-weight: 600;
+  transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease;
+}
+
+.accent-pill:hover {
+  transform: translateY(-1px);
+}
+
+.reveal-text {
+  line-height: 0.85;
+}
+
+/* Custom editorial scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff751f;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff5100;
+}
+
+/* Magnetic / cursor helpers */
+.cursor-none-forced {
+  cursor: none !important;
+}
+
+/* Subtle editorial noise pattern */
+.bg-noise {
+  background-image: radial-gradient(rgba(255, 81, 0, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
