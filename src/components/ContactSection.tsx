@@ -6,7 +6,6 @@ import { useCursor } from '../context/CursorContext';
 const emailAddress = 'ayandamindesigns@gmail.com';
 
 const socialLinks = [
-  { name: 'Instagram', handle: '@ayandamini.studio', url: 'https://instagram.com' },
   { name: 'LinkedIn', handle: 'ayanda-mini', url: 'https://www.linkedin.com/in/ayandamini' },
 ];
 
@@ -82,7 +81,7 @@ export function ContactSection() {
           {/* Social Channels List */}
           <div className="space-y-3 pt-4 border-t border-[#ff751f]/30">
             <span className="caps text-[10px] text-[#6F6F6F]">
-              Social & Digital Channels:
+              Social & Digital Channel:
             </span>
             <div className="divide-y divide-[#ff751f]/20">
               {socialLinks.map((social, sIdx) => (

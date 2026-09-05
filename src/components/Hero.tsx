@@ -80,16 +80,6 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
             >
               Explore Portfolio
             </button>
-
-            <button
-              id="hero-view-cases-btn"
-              onClick={onExploreClick}
-              onMouseEnter={() => setCursorVariant('link')}
-              onMouseLeave={resetCursor}
-              className="caps text-[#6F6F6F] hover:text-[#ff5100] underline underline-offset-8 cursor-pointer transition-colors"
-            >
-              View Case Studies
-            </button>
           </div>
         </div>
 

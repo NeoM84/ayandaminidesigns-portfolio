@@ -158,7 +158,7 @@ export const selectedWorkSections: WorkSection[] = [
         workId: 'WORK ID: EP1-004',
         title: '',
         description: '',
-        imageUrl: 'assets/EventPicture4.jpg',
+        imageUrl: 'assets/EventPicture4.JPG',
         altText: '',
         aspectRatio: 'portrait',
         meta: ''
@@ -168,7 +168,7 @@ export const selectedWorkSections: WorkSection[] = [
         workId: 'WORK ID: EP1-005',
         title: '',
         description: '',
-        imageUrl: 'assets/EventPicture5.jpg',
+        imageUrl: 'assets/EventPicture5.JPG',
         altText: '',
         aspectRatio: 'landscape',
         meta: ''
