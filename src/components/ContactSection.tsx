@@ -7,6 +7,7 @@ const emailAddress = 'ayandamindesigns@gmail.com';
 
 const socialLinks = [
   { name: 'LinkedIn', handle: 'ayanda-mini', url: 'https://www.linkedin.com/in/ayandamini' },
+  { name: 'Behance', handle: '@ayandamindesigns', url: 'https://www.behance.net/ayandaminidesigns'},
 ];
 
 export function ContactSection() {

@@ -37,26 +37,7 @@ export const selectedWorkSections: WorkSection[] = [
         aspectRatio: 'landscape',
         meta: ''
       },
-      {
-        id: 'cad-04',
-        workId: 'WORK ID: CAD-004',
-        title: '',
-        description: '',
-        imageUrl: 'assets/Artboard1.png',
-        altText: '',
-        aspectRatio: 'banner',
-        meta: ''
-      },
-      {
-        id: 'cad-05',
-        workId: 'WORK ID: CAD-005',
-        title: '',
-        description: '',
-        imageUrl: 'assets/CustomAwardDesign.png',
-        altText: '',
-        aspectRatio: 'landscape',
-        meta: ''
-      }
+
     ]
   },
   {
@@ -80,9 +61,9 @@ export const selectedWorkSections: WorkSection[] = [
         workId: 'WORK ID: INS-002',
         title: '',
         description: '',
-        imageUrl: 'assets/Frame.png',
+        imageUrl: 'assets/MondayMotivation3.png',
         altText: '',
-        aspectRatio: 'portrait',
+        aspectRatio: 'square',
         meta: ''
       },
       {
@@ -128,7 +109,7 @@ export const selectedWorkSections: WorkSection[] = [
         workId: 'WORK ID: EP1-001',
         title: 'Event Photography',
         description: '',
-        imageUrl: 'assets/EventPicture1.jpg',
+        imageUrl: 'assets/EventSigning.jpg',
         altText: '',
         aspectRatio: 'portrait',
         meta: ''
@@ -138,7 +119,7 @@ export const selectedWorkSections: WorkSection[] = [
         workId: 'WORK ID: EP1-002',
         title: '',
         description: '',
-        imageUrl: 'assets/EventPicture2.jpg',
+        imageUrl: 'assets/DrumsEvent.JPG',
         altText: '',
         aspectRatio: 'portrait',
         meta: ''
@@ -148,7 +129,7 @@ export const selectedWorkSections: WorkSection[] = [
         workId: 'WORK ID: EP1-003',
         title: '',
         description: '',
-        imageUrl: 'assets/EventPicture3.jpg',
+        imageUrl: 'assets/BrainStormEvent.JPG',
         altText: '',
         aspectRatio: 'portrait',
         meta: ''
@@ -158,7 +139,7 @@ export const selectedWorkSections: WorkSection[] = [
         workId: 'WORK ID: EP1-004',
         title: '',
         description: '',
-        imageUrl: 'assets/EventPicture4.JPG',
+        imageUrl: 'assets/ArtEvent.jpg',
         altText: '',
         aspectRatio: 'portrait',
         meta: ''
@@ -206,7 +187,7 @@ export const selectedWorkSections: WorkSection[] = [
         workId: 'WORK ID: EP2-003',
         title: '',
         description: '',
-        imageUrl: 'assets/PortraitPhoto3.jpg',
+        imageUrl: 'assets/ModelwithFlowers1.jpg',
         altText: '',
         aspectRatio: 'portrait',
         meta: ''
@@ -216,7 +197,7 @@ export const selectedWorkSections: WorkSection[] = [
         workId: 'WORK ID: EP2-004',
         title: '',
         description: '',
-        imageUrl: 'assets/PortraitPhoto4.jpg',
+        imageUrl: 'assets/ModelwithFlower2.jpg',
         altText: '',
         aspectRatio: 'portrait',
         meta: ''

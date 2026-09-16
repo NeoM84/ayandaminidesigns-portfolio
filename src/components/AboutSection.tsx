@@ -12,10 +12,10 @@ export const AboutSection: React.FC = () => {
       {/* Editorial Giant Statement */}
       <div className="mb-16 md:mb-24">
         <h2 className="serif text-3xl sm:text-5xl lg:text-6xl font-black text-[#111111] leading-[1.08] tracking-tight">
-          "Design is not just how it looks. It's how it makes people{' '}
-          <span className="text-[#ff751f] italic font-normal">feel, desire,</span> and{' '}
+          "Giving ideas a{' '}
+          <span className="text-[#ff751f] italic font-normal">visual</span> voice{' '}
           <span className="text-[#ff5100] underline decoration-[#ff751f] decoration-solid decoration-2 underline-offset-8">
-            remember.
+            through design.
           </span>"
         </h2>
       </div>

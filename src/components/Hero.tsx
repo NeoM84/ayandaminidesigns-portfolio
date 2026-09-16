@@ -60,14 +60,14 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
         {/* Left Column: Monumental Headline, Subtitle, & Actions */}
         <div className="lg:col-span-8 relative z-10 space-y-6 md:space-y-8">
           <h1 className="serif reveal-text text-[14vw] sm:text-[11vw] lg:text-[98px] xl:text-[118px] font-bold italic mb-4 leading-[0.88] text-[#111111] tracking-[0.06em]">
-            Creativity <br />
+            Designed with <br />
             <span className="text-[#ff5100] not-italic font-bold block mt-1 tracking-[0.08em]">
-              Mastering
+            Intention
             </span>
           </h1>
 
           <p className="max-w-xl text-base sm:text-lg md:text-xl leading-relaxed text-[#6F6F6F] font-light">
-          I'm Ayanda, based in Johannesburg, I'm a multimedia designer working across video, photography, UX/UI, and graphic design, helping brands say more without saying more.
+          I'm Ayanda, based in Johannesburg, I'm a multimedia designer working across graphic design, video, photography, and UX/UI, helping brands say more without saying more.
           </p>
 
           <div className="pt-2 flex flex-wrap items-center gap-6">
