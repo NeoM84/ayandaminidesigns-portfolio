@@ -32,7 +32,7 @@ export const toolsList: string[] = [
   'Photoshop',
   'Illustrator',
   'Canva',
-  'MS Word',
+  'Affinity Designer',
   'MS PowerPoint',
   'Indesign',
   'After Effects'

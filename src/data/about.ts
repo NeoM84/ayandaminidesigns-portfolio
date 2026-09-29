@@ -10,7 +10,12 @@ export const aboutData = {
   ],
   workexperience: [
     {
-      year: '2025-Present',
+      year: 'May 2026 - Present',
+      company: 'Allan & Gill Gray Philanthropies',
+      role: 'Programme Administrator Inspire',
+    },
+    {
+      year: 'April 2025 - Dec 2025',
       company: 'Allan & Gill Gray Philanthropies',
       role: 'Multimedia Content Creator',
     },

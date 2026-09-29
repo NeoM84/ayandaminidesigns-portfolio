@@ -47,7 +47,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick }) => {
         <div className="flex items-center gap-3">
           <span className="caps flex items-center gap-2 text-[#111111] text-[10px] sm:text-xs">
             <span className="w-2 h-2 rounded-full bg-[#ff5100] animate-pulse"></span>
-            Ayanda Mini Designs
+            AyandaMiniDesigns
           </span>
           <span className="hidden sm:inline-block text-[#6F6F6F] text-[11px] font-mono">
             / Johannesburg

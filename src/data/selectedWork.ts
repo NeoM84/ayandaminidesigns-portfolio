@@ -102,7 +102,7 @@ export const selectedWorkSections: WorkSection[] = [
     id: 'event-photography-1',
     sectionNumber: '03',
     heading: 'Event Photography',
-    tagline: 'Inspire Event Photography',
+    tagline: 'AGGGPSA Event Photography',
     items: [
       {
         id: 'ep1-01',
@@ -157,7 +157,7 @@ export const selectedWorkSections: WorkSection[] = [
     ]
   },
   {
-    id: 'portrait-photography',
+    id: 'Portrait-photography',
     sectionNumber: '04',
     heading: 'portrait photography',
     tagline: 'Freelance Portrait Photography Project',
