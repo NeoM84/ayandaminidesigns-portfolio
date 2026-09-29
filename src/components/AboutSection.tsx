@@ -91,17 +91,17 @@ export const AboutSection: React.FC = () => {
           <h3 className="serif text-2xl font-bold text-[#111111]">WORK EXPERIENCE</h3>
               </div>
 
-                <div className="divide-y divide-[#ff751f]/20">
-                {aboutData.workexperience.map((job, jIdx) => (
-                 <div
-                  key={jIdx}
-                 className="py-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-1 text-xs sm:text-sm hover:bg-brand-accent/5 px-2 transition-colors"
+            <div className="divide-y divide-[#ff751f]/20">
+              {aboutData.workexperience.map((job, jIdx) => (
+              <div
+                 key={jIdx}
+                 className="py-3 flex flex-col gap-1 text-xs sm:text-sm hover:bg-brand-accent/5 px-2 transition-colors"
                 >
                  <span className="font-semibold text-brand-primary">{job.role}</span>
-                <div className="text-right caps text-[10px] text-brand-accent shrink-0">
-               {job.company} • {job.year}
-            </div>
-           </div>
+              <div className="caps text-[10px] text-brand-accent">
+           {job.company} • {job.year}
+      </div>
+    </div>
         ))}
         </div>
       </div>
