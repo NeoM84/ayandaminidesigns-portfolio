@@ -48,16 +48,15 @@ export interface ToolBadge {
   level: string;
 }
 
-export interface AwardItem {
+export interface WorkExperienceItem {
   year: string;
-  award: string;
-  project: string;
-  organization: string;
+  company: string;
+  role: string;
 }
 
-export interface ClientItem {
-  name: string;
-  industry: string;
+export interface EducationItem {
+  institutionname: string;
+  degree: string;
   year: string;
 }
 
@@ -69,4 +68,3 @@ export interface CursorContextType {
   setCursorVariant: (variant: CursorVariant, text?: string) => void;
   resetCursor: () => void;
 }
-
