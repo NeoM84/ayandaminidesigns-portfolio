@@ -157,9 +157,9 @@ export const selectedWorkSections: WorkSection[] = [
     ]
   },
   {
-    id: 'Portrait-photography',
+    id: 'portrait-photography',
     sectionNumber: '04',
-    heading: 'portrait photography',
+    heading: 'Portrait photography',
     tagline: 'Freelance Portrait Photography Project',
     items: [
       {
