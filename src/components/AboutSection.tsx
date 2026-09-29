@@ -87,26 +87,26 @@ export const AboutSection: React.FC = () => {
           </div>
           {/* Work Experience */}
           <div className="space-y-4 pt-6 border-t border-[#ff751f]/30">
-            <div className="flex items-center justify-between">
-              <h3 className="serif text-2xl font-bold text-[#111111]">WORK EXPERIENCE</h3>
-            </div>
+          <div className="flex items-center justify-between">
+          <h3 className="serif text-2xl font-bold text-[#111111]">WORK EXPERIENCE</h3>
+              </div>
 
-            <div className="divide-y divide-[#ff751f]/20">
-              {aboutData.workexperience.map((job, jIdx) => (
-                <div
+                <div className="divide-y divide-[#ff751f]/20">
+                {aboutData.workexperience.map((job, jIdx) => (
+                 <div
                   key={jIdx}
-                  className="py-3 flex items-center justify-between text-xs sm:text-sm hover:bg-brand-accent/5 px-2 transition-colors"
+                 className="py-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-1 text-xs sm:text-sm hover:bg-brand-accent/5 px-2 transition-colors"
                 >
-                  <span className="font-semibold text-brand-primary">{job.role}</span>
-                  <div className="text-right caps text-[10px] text-brand-accent shrink-0">
-                    {job.company} • {job.year}
-                  </div>
-                </div>
-              ))}
+                 <span className="font-semibold text-brand-primary">{job.role}</span>
+                <div className="text-right caps text-[10px] text-brand-accent shrink-0">
+               {job.company} • {job.year}
             </div>
-          </div>
+           </div>
+        ))}
         </div>
       </div>
+    </div>
+  </div>
     </section>
   );
 };
